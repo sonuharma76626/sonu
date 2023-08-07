@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title># My Gym #</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url('https://www.teahub.io/photos/full/108-1086552_photo-wallpaper-man-muscles-tattoo-fitness-gym-men.jpg');
+    }
+
+    .left {
+        display: inline block;
+        position: absolute;
+        top: 22px;
+        color: white;
+        
+    }
+
+    .left img {
+        width: 80px;
+        height: 60px;
+        filter: invert(100%);
+        margin-left: 12px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 10px;
+        margin-left: 12px;
+    }
+
+    .mid {
+
+        display: block;
+        width: 35%;
+        margin: 22px auto;
+    }
+
+    .right {
+
+        display: inline block;
+        position: absolute;
+        right: 34px;
+        top: 22px;
+        color: white;
+    }
+
+    .navbar {
+        display: inline -block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 8px;
+        font-size: 18px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: rgb(58, 6, 247);
+        text-decoration: underline;
+      }
+
+    .btn {
+        margin: 9px;
+        color: white;
+        background-color: black;
+
+        border: 2px solid rgb(42, 184, 61);
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(235, 138, 138);
+    }
+
+    .container {
+        color: white;
+        border-radius: 10px;
+        margin: 100px 40px;
+        border: 3px solid white;
+        width: 30%;
+        padding: 20px;
+        padding-bottom: 41px;
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .container button {
+        margin: 12px auto;
+        width: 20%;
+        display: block;
+        padding: 4px;
+    }
+
+    .formon input {
+        margin: 2px;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px;
+        width: 90%;
+    }
+</style>
+
+<body>
+
+    <header class="header">
+        <!--left box-->
+        <div class="left">
+            <img src=" https://c8.alamy.com/comp/WFF5WN/barbel-dumbbell-gym-icon-logo-template-gym-badge-fitness-logo-design-WFF5WN.jpg "
+                alt="  no  img">
+            <div>sonu Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"> Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contect us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button><button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join the best gym in kanpur </h2>
+        <form action="no action.js">
+            <div class="formon">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="formon">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="formon">
+                <input type="text" placeholder="Enter your Gender">
+            </div>
+            <div class="formon">
+                <input type="text" placeholder="Enter your Locaulty">
+            </div>
+            <div class="formon">
+                <input type="text" placeholder="Enter your Phone number">
+            </div>
+            <div class="formon">
+                <input type="text" placeholder="Enter your Email">
+            </div>
+        </form>
+        <button class="btn">submit</button>
+    </div>
+
+</body>
+
+</html>
